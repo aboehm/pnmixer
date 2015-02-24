@@ -8,7 +8,8 @@ Homepage: https://github.com/nicklan/pnmixer
 Vcs-Git: https://github.com/nicklan/pnmixer.git
 
 Package: pnmixer
-Architecture: i386
+Architecture: any 
+Multi-Arch: same
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A mixer for system tray
  PNMixer is a simple mixer application designed to run in your system tray. It integrates nicely into desktop environments that don't have a panel that supports applets, and therefore can't run a mixer applet. In particular it's been used quite a lot with fbpanel and tint2, but should run fine in any system tray.
