@@ -3,6 +3,7 @@
 .ycm_extra_conf.py
 .ycm_extra_conf.pyc
 /autom4te.cache
+/compile
 /INSTALL
 /Makefile
 /Makefile.in
@@ -28,5 +29,9 @@
 /po/POTFILES
 /po/*.pot
 /po/messages.mo
+/po/Makefile.in.in
 src/html
 src/latex
+/debian/pnmixer
+/debian/pnmixer.debhelper.log
+/debian/pnmixer.substvars
