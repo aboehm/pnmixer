@@ -32,6 +32,7 @@
 /po/Makefile.in.in
 src/html
 src/latex
+/debian/files
 /debian/pnmixer
 /debian/pnmixer.debhelper.log
 /debian/pnmixer.substvars
